@@ -53,3 +53,28 @@ let isAuthenticated = true;
 let authenticationstatus = isAuthenticated ? "Authenticated" : "Not authenticated";
 
 console.log("Authentication Status: ", authenticationstatus);
+
+
+let person = "Enrolled Member";
+let dietaryServices;
+
+switch (person) {
+
+    case "Employee":
+        dietaryServices = "Access granted to dietary services";
+        break;
+
+    case "Enrolled Member":
+        dietaryServices = "Access granted to dietary services and " 
+        + "one-on-one interaction with a dietician";
+        break;
+
+    case "Subscriber":
+        dietaryServices = "Partial access granted to dietary services";
+        break;
+
+    default:
+        dietaryServices = "Access denied. Please enroll or subscribe to gain access";
+}
+
+console.log(dietaryServices);
