@@ -29,6 +29,19 @@ function show(){
 show();
 
 
-console.log(functionVar); // Throws ReferenceError
-console.log(functionLet); // Throws ReferenceError
-console.log(functionConst); // Throws ReferenceError
+//console.log(functionVar); // Throws ReferenceError
+//console.log(functionLet); // Throws ReferenceError
+//console.log(functionConst); // Throws ReferenceError
+
+{
+    let Lvar = "I am Lvar";
+    const Cvar = "i am Cvar";
+    var Vvar = "I am Vvar";
+
+    Lvar = "L";
+    Vvar = "V";
+}
+
+Lvar = "L";
+Cvar = "C";
+Vvar = "V";
