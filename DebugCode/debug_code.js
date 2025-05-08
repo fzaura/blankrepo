@@ -15,10 +15,10 @@ function performOperation() {
 }
 
 function multiply(a, b) {
-    
+
     debugger;
 
-    return a * b;
+    return a / b;
 }
 
 function displayResult(result) {
