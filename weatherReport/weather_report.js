@@ -17,4 +17,4 @@ function showweatherDetails(event) {
       });
       
     }
-    document.getElementById('weatherForm').addEventListener('submit',showweatherDetails );
+    document.getElementById('weatherForm').addEventListener('submit', showweatherDetails);
